@@ -1,10 +1,14 @@
 function myFunction(){
     
-    var z = parseInt(document.getElementById("fNumber1").value);
+    var fNum = parseInt(document.getElementById("fNumber1").value);
     
-    var y = parseInt(document.getElementById("fNumber2").value);
+    var sNum = parseInt(document.getElementById("fNumber2").value);
+
+    var tNum = parseInt(document.getElementById("fNumber3").value);
+
+
     
-    var x = z + y;
+    var x = fNum + sNum + tNum;
 
     if (x % 2 === 0) {
 
@@ -17,5 +21,4 @@ function myFunction(){
         document.getElementById("outPut").innerHTML=x;
 
     }
-    
 }
