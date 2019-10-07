@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: bisque;
+}
+
+.container {
+    text-align: center;
+    margin: 3% auto;
+}
+.wrapper {
+    width:95%;
+    margin: 50px auto;
+    background-color: burlywood;
+    padding: 20px;
+
+}
+
+button {
+    background-color: green;
+    color:white;
+    margin:5px;
+    padding: 2px 15px;
+
+}
+
+ul li {
+    margin: 5% auto;
+    text-align: center;
+}
+
+li {
+    margin:2px;
+    padding: 2px;
+    list-style-type: upper-roman;
+    width: 70%;
+}
+
+ul li {
+    background-color: lightskyblue;
+}
+
+ul li:nth-child(even) {
+    background-color: lightsteelblue;
+}
